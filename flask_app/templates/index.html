@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправить фото</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+<h1>ПневмонияDetector</h1>
+
+<form action="/predict" method="post" enctype="multipart/form-data">
+    <div class="form_photo">
+        <input type="file" name="photo" accept="image/*">
+    </div>
+    <div class="center_div">
+        <input class="predict_button" type="submit" value="Результат">
+    </div>
+</form>
+
+<h2>Предсказание</h2>
+<div class="answer">
+    <p class="predict"></p>
+</div>
+<h3 class="about">О "ПневмонияDetector"</h3>
+<div class="about_text">ПневмонияDetector - нейросеть, написанная на keras <br>и обученная на 5300 изображений, для
+    <br>классификации по рентгену есть ли у человека пневмония.
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #689bc4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.form_photo{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.answer {
+    max-width: 400px;
+    margin: 20px auto; /* Обновлено */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.predict{
+    text-align: center;
+}
+.about{
+    color: white;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.about_text{
+    color: white;
+    text-align: center;
+
+}
+input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.center_div {
+    text-align: center;
+}
+
+.predict_button {
+    margin: 20px auto; /* Обновлено */
+    padding: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.predict_button:hover {
+    background-color: #45a049;
+}
