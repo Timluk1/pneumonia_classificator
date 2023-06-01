@@ -23,7 +23,7 @@ def predict_model():
         # Чтение изображения с помощью OpenCV
         image = cv2.imread(file_path)
 
-        # Преобразование изображения в пиксели
+        # Предсказание нейронной сети
         predict = prediction_model(image)
 
         # Удаление временного файла
