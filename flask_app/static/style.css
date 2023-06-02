@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #689bc4;
+    background-color: #ebebeb;
     margin: 0;
     padding: 0;
 }
@@ -8,13 +8,13 @@ body {
 h2 {
     text-align: center;
     margin-top: 50px;
-    color: white;
+    color: #979aaa;
 }
 
 h1 {
     text-align: center;
     margin-top: 50px;
-    color: white;
+    color: #979aaa;
 }
 
 .form_photo{
@@ -37,9 +37,16 @@ h1 {
 
 .predict{
     text-align: center;
+    color: #979aaa;
 }
+
+.scroll-container {
+      height: 500px; /* Задайте желаемую высоту */
+      overflow-y: scroll; /* Включение вертикальной прокрутки */
+}
+
 .about{
-    color: white;
+    color: #979aaa;
     text-align: center;
     max-width: 400px;
     margin: 0 auto;
@@ -47,7 +54,7 @@ h1 {
 
 }
 .about_text{
-    color: white;
+    color: #979aaa;
     text-align: center;
 
 }
